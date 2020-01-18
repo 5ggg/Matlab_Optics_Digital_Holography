@@ -1,4 +1,4 @@
-function [ mark,varargout ] = AJMF( a,varargin )
+function [ mark,varargout ] = AJMF( a,varargin ) 
 %AJMF Abnormal jump marking and filtering in a phase map
 %  Syntax:
 %  [mark,filtered]=AJMF(a,filtering_mehod,filter_size)
@@ -13,9 +13,9 @@ function [ mark,varargout ] = AJMF( a,varargin )
 %  ------------------------------------------------------------------------
 %  Reference:
 %  [1]
-%  ÎâÂ»É÷ ÈÎµ¤ Îâ¿ý  Ò»ÖÖÐÂµÄÇøÓòÔö³¤ÏàÎ»È¥°ü¹üËã·¨
-%  ÄÏ²ý´óÑ§»úµç¹¤³ÌÑ§Ôº½­Î÷ÄÏ²ý330029)
-%  ÄÏ²ý´óÑ§µç×ÓÐÅÏ¢¹¤³ÌÑ§Ôº½­Î÷ÄÏ²ý330029)
+%  å´ç¦„æ…Ž ä»»ä¸¹ å´é­  ä¸€ç§æ–°çš„åŒºåŸŸå¢žé•¿ç›¸ä½åŽ»åŒ…è£¹ç®—æ³•
+%  å—æ˜Œå¤§å­¦æœºç”µå·¥ç¨‹å­¦é™¢æ±Ÿè¥¿å—æ˜Œ330029)
+%  å—æ˜Œå¤§å­¦ç”µå­ä¿¡æ¯å·¥ç¨‹å­¦é™¢æ±Ÿè¥¿å—æ˜Œ330029)
 %  ------------------------------------------------------------------------
 error(nargchk(1,3,nargin))
 if nargout>2
