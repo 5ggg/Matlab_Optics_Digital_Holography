@@ -5,7 +5,7 @@ function [ mark,varargout ] = AJMF( a,varargin )
 %  [mark,filtered]=AJMF(a,filtering_mehod,filter_size)
 %  mark=AJMF(a)
 %
-%  a is the phase map
+%  a is the phase map 
 %  filter_method specifies the method of filtering, there are
 %  two alternatives: 'mean' and 'median'
 %  filter_size specifies the size of the filter
