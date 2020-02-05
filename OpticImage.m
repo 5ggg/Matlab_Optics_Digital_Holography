@@ -1,4 +1,4 @@
-function [ varargout ] = OpticImage( U,varargin )
+function [ varargout ] = OpticImage( U,varargin ) 
 %OPTICIMAGE Display an optical image OR output the coordinate vector
 %  Syntax:
 %  [vx,vy] = OpticImage(U,dx,dy,xy0)
