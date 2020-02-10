@@ -19,7 +19,7 @@ function [ mark,varargout ] = AJMF( a,varargin )
 %  南昌大学电子信息工程学院江西南昌330029)
 %  ------------------------------------------------------------------------
 error(nargchk(1,3,nargin))
-if nargout>2
+if nargout>2 
     error('Too many output arguments')
 end
 [M,N]=size(a);
