@@ -1,6 +1,6 @@
 function [ varargout ] = FDADS( U1,z,varargin )
 %FDADS Fresnel Diffraction with Arbitrary Diffraction plane Sampling
-%  Syntax:
+%  Syntax: 
 %  [U2,dxy2] = FDADS(U1,z,dxy1,b,FSN,xy0,lambda)
 %  [U2,...] = FDADS(U1,...)
 %
