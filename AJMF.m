@@ -12,7 +12,7 @@ function [ mark,varargout ] = AJMF( a,varargin )
 %  mark is a logical array which marks the abnormal phase jump points
 %  filtered is the filtered phase map
 %  ------------------------------------------------------------------------
-%  Reference:
+%  Reference/参考文献：
 %  [1]
 %  吴禄慎 任丹 吴魁  一种新的区域增长相位去包裹算法
 %  南昌大学机电工程学院江西南昌330029)
