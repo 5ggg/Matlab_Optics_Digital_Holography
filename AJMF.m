@@ -1,5 +1,5 @@
 function [ mark,varargout ] = AJMF( a,varargin )                  
-                              
+                                
 %AJMF Abnormal jump marking and filtering in a phase map
 %  Syntax:
 %  [mark,filtered]=AJMF(a,filtering_mehod,filter_size)
