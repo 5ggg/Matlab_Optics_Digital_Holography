@@ -1,5 +1,5 @@
 %  Digital holography main window
-    
+      
 function varargout = dh(varargin)
 % dh M-file for dh.fig
 %      dh, by itself, creates a new dh or raises the existing
