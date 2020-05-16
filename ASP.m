@@ -1,5 +1,5 @@
 function varargout = ASP( U1,z,dxy1,lambda,varargin )
-
+ 
 %ASP Diffraction calculation by Angular Spectrum Propagation method
 %  Syntax:
 %  [U2,dxy2] = ASP(U1,z,dxy1,'PropertyName','PropertyValue',...)
