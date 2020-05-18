@@ -1,6 +1,6 @@
 function [ U2 ] = DBDLC( U1,z,dxy1,t,center,RPN,varargin )
 %DBDLC Diffraction By Discrete Linear Convolution
-%  %  Syntax:
+%  %  Syntax: 
 %  U2 = DBDLC(U1,z,dxy1,t,center,RPN,'PropertyName','PropertyValue',...  );
 %
 %  U1 : the wavefront on the x1 plane
