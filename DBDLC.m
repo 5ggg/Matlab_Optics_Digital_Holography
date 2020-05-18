@@ -1,4 +1,4 @@
-function [ U2 ] = DBDLC( U1,z,dxy1,t,center,RPN,varargin )  
+function [ U2 ] = DBDLC( U1,z,dxy1,t,center,RPN,varargin )   
 %DBDLC Diffraction By Discrete Linear Convolution
 %  %  Syntax: 
 %  U2 = DBDLC(U1,z,dxy1,t,center,RPN,'PropertyName','PropertyValue',...  );
