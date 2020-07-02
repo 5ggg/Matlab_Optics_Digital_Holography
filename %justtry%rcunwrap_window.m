@@ -1,4 +1,4 @@
-function varargout = rcunwrap_window(varargin)                                          
+function varargout = rcunwrap_window(varargin)                                           
 % RCUNWRAP_WINDOW M-file for rcunwrap_window.fig
 %      RCUNWRAP_WINDOW, by itself, creates a new RCUNWRAP_WINDOW or raises the existing
 %      singleton*. 
